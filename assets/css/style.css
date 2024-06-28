@@ -1,3 +1,6 @@
+/*font import from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200..700&display=swap');
+
 /*Asterisk wildcard to remove default settings. At top of sheet bc its the most general*/
 * {
     padding: 0;
@@ -5,13 +8,29 @@
     box-sizing: border-box;
 }
 
-/*general styles*/
+/*for lato-light font
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /*weight: Use a value from 200 to 700
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 50;
+    font-style: normal;
+  }*/
+
+  /*general styles*/
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /*generic project styles*/
     color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /*header*/
